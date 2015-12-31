@@ -1,0 +1,51 @@
+{
+  "name": "PUT-YOUR-PACKAGE-NAME-HERE",
+  "version": "0.0.0",
+  "description": "PUT-YOUR-PACKAGE-DESCRIPTION-HERE",
+  "format": "es6",
+  "main": "index.js",
+  "browser": "global.js",
+  "global": "global.js",
+  "license": "MIT",
+  "homepage": "PUT-YOUR-PACKAGE-HOMEPAGE-HERE",
+  "scripts": {
+    "test": "./scripts/test.sh",
+    "clean": "./scripts/clean.sh",
+    "prepublish": "./scripts/prepublish.sh",
+    "build-umd": "./scripts/build-umd.sh",
+    "build-cjs": "./scripts/build-cjs.sh",
+    "build-amd": "./scripts/build-amd.sh",
+    "build-global": "./scripts/build-global.sh"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.0.0",
+    "ADD-YOUR-DEPENDENCIES-HERE": "^X.X.X"
+  },
+  "devDependencies": {
+    "babel": "^5.6.6",
+    "babel-loader": "^5.3.2",
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "webpack": "^1.12.1"
+  },
+  "jspm": {
+    "registry": "jspm",
+    "directories": {
+      "lib": "src"
+    }
+  },
+  "bower": {
+    "TODO": "TODO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PUT-YOUR-GIT-REPO-URL-HERE"
+  },
+  "bugs": {
+    "url": "PUT-YOUR-ISSUE-TRACKER-URL-HERE"
+  },
+  "keywords": [
+    "ADD-YOUR-KEYWORDS-HERE"
+  ],
+  "author": ""
+}
