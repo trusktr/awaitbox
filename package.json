@@ -18,8 +18,7 @@
     "build-global": "./scripts/build-global.sh"
   },
   "dependencies": {
-    "babel-runtime": "^5.0.0",
-    "ADD-YOUR-DEPENDENCIES-HERE": "^X.X.X"
+    "babel-runtime": "^5.0.0"
   },
   "devDependencies": {
     "babel": "^5.6.6",
