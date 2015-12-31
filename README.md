@@ -6,7 +6,9 @@ A skeleton for getting started with NPM packages.
 Getting started (things you have to do)
 ---------------------------------------
 
-- Replace all the things in package.json that are ALL-CAPS with your own things.
+- Personalize `package.json` with the details of your package, replacing things
+  that are `ALL-CAPS`.
+- Add dependencies as needed into the `dependencies` or `devDependencies` fields.
 - `npm install` to install dependencies and dev-dependencies.
 - Write code inside the `src` folder using ES2015 modules and/or syntax (ES2016
   language features are not yet supported, TODO), with index.js being the main
