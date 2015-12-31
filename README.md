@@ -10,6 +10,8 @@ Getting started (things you have to do)
   that are `ALL-CAPS`.
 - Add dependencies as needed into the `dependencies` or `devDependencies` fields.
 - `npm install` to install dependencies and dev-dependencies.
+- Optionally run `npm run clean` at this point to remove automatically-build files (caused
+  by `npm install`)
 - Write code inside the `src` folder using ES2015 modules and/or syntax (ES2016
   language features are not yet supported, TODO), with index.js being the main
   file (the file that gets evaluated when someone runs
@@ -21,6 +23,8 @@ Getting started (things you have to do)
   project for local testing.
 - When you're ready to publish, just make sure you update the `version` field
   of your `package.json` then run `npm publish`.
+- Run `npm run clean` again to clean build files. You can generally run the
+  `clean` script whenever.
 
 These are just rough guidelines, and are flexible. It's up to you to modify
 this to your needs (for example, add gulp or grunt, or use Webpack to watch
