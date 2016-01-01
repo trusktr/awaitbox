@@ -90,6 +90,13 @@ Some things explained:
 Basically, the idea is to maximize coverage of the most notable workflows and
 use cases.
 
+TODO
+----
+
+- [ ] Upgrade to Babel 6.x
+- [ ] Support not-yet-completed experimental language features (ES7/ES2016 at
+  the time of writing).
+
 Contributing
 ------------
 
