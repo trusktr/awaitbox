@@ -6,25 +6,31 @@ A skeleton for getting started with NPM packages.
 Getting started (things you have to do)
 ---------------------------------------
 
-- Personalize `package.json` with the details of your package, replacing things
-  that are `ALL-CAPS`.
-- Add dependencies as needed into the `dependencies` or `devDependencies` fields.
-- `npm install` to install dependencies and dev-dependencies.
-- Optionally run `npm run clean` at this point to remove automatically-build files (caused
-  by `npm install`)
-- Write code inside the `src` folder using ES2015 modules and/or syntax (ES2016
+(To simply see what this thing does, skip steps 1-6, 8, 9, 11, 12, otherwise
+follow all the steps to customize to your needs).
+
+1. Personalize `package.json` with the details of your package (name,
+  description, etc), replacing things that are `ALL-CAPS` with your own things.
+2. Add dependencies as needed into the `dependencies` or `devDependencies` fields.
+3. Open and customize `scripts/build-global.sh` (read the comments there).
+4. Open and customize `scripts/clean.sh` (read the comments there).
+5. Open and customize `.gitignore` (read the comments there).
+6. Optionally customize `.npmignore` (it's empty by default).
+7. `npm install` to install dependencies and dev-dependencies.
+8. Run `npm run clean` at any point to clean automatically-built files (caused
+  by `npm install`, `npm prepublish`, and `npm publish`, for example).
+9. Write code inside the `src` folder using ES2015 modules and/or syntax (ES2016
   language features are not yet supported, TODO), with index.js being the main
   file (the file that gets evaluated when someone runs
   `require('your-package-name')` for example)
-- Once you've written your package code, run `npm prepublish` manually to put
-  the root of the project into the state that you'll be publishing it in.
-- To test your package, you can use `npm link your-package-name` (see [the
+10. Once you've written your package code, run `npm prepublish` manually which
+    compiles everything to CommonJS format in the root of the project, and also
+    builds a global.js file.
+11. To test your package, you can use `npm link your-package-name` (see [the
   docs](https://docs.npmjs.com/cli/link)) to link your package into a test
   project for local testing.
-- When you're ready to publish, just make sure you update the `version` field
+12. When you're ready to publish, just make sure you update the `version` field
   of your `package.json` then run `npm publish`.
-- Run `npm run clean` again to clean build files. You can generally run the
-  `clean` script whenever.
 
 These are just rough guidelines, and are flexible. It's up to you to modify
 this to your needs (for example, add gulp or grunt, or use Webpack to watch
