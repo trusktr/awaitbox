@@ -1,4 +1,6 @@
-// import this if you want to polyfill things like Promise, Object.values(), etc.
+// Import this if you want to polyfill things like Promise, Object.values(),
+// etc. Includes Facebook Regenerator if you're using generators or async
+// functions.
 import 'babel-polyfill'
 
 // import from a local file.
