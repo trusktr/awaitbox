@@ -1,9 +1,10 @@
 .DS_Store
 node_modules
 
-# ignore build files.
+# ignore build files (but don't ignore Webpack's config file).
 /*.js
 /*.js.map
+!/webpack.config.js
 
 # Ignore built output folders. Edit this list: list the the top-level folders
 # that you have in your `src` folder. Maintaining this is a tradeoff to the
