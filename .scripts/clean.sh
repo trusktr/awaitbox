@@ -6,7 +6,7 @@ mv \
     .git \
     node_modules \
     src \
-    scripts \
+    .scripts \
     webpack.config.js \
 save/
 
@@ -16,12 +16,12 @@ save/
 echo removing build files.
 rm -rf ./*.js ./*.js.map `find . -maxdepth 1 -type d | cut -d/ -f2 | grep -v '^save$' | grep -v '^.$'`
 
-echo moving saved files back.
+echo Restoring saved files.
 
 for x in save/* save/.[!.]* save/..?*; do
   if [ -e "$x" ]; then mv -- "$x" ./; fi
 done
 rmdir save/
 
-echo done moving saved files back.
+echo Done restoring saved files.
 

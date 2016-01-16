@@ -9,23 +9,57 @@
   "license": "MIT",
   "homepage": "PUT-YOUR-PACKAGE-HOMEPAGE-HERE",
   "scripts": {
-    "test": "./scripts/test.sh",
-    "clean": "./scripts/clean.sh",
-    "prepublish": "./scripts/prepublish.sh",
-    "build-umd": "./scripts/build-umd.sh",
-    "build-cjs": "./scripts/build-cjs.sh",
-    "build-amd": "./scripts/build-amd.sh",
-    "build-global": "./scripts/build-global.sh"
+    "test": "./.scripts/test.sh",
+    "clean": "./.scripts/clean.sh",
+    "prepublish": "./.scripts/prepublish.sh",
+    "build-umd": "./.scripts/build-umd.sh",
+    "build-cjs": "./.scripts/build-cjs.sh",
+    "build-amd": "./.scripts/build-amd.sh",
+    "build-global": "./.scripts/build-global.sh"
   },
   "dependencies": {
-    "babel-runtime": "^5.0.0"
   },
   "devDependencies": {
-    "babel": "^5.6.6",
-    "babel-loader": "^5.3.2",
-    "babelify": "^6.3.0",
-    "browserify": "^11.1.0",
-    "webpack": "^1.12.1"
+    "browserify": "^12.0.0",
+    "babelify": "^7.0.0",
+
+    "webpack": "^1.12.1",
+    "regenerator": "^0.8.0",
+
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-polyfill": "^6.0.0",
+
+    "babel-preset-react": "^6.0.0",
+
+    "babel-plugin-transform-es2015-arrow-functions": "^6.0.0",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.0.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.0.0",
+    "babel-plugin-transform-es2015-classes": "^6.0.0",
+    "babel-plugin-transform-es2015-computed-properties": "^6.0.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.0.0",
+    "babel-plugin-transform-es2015-for-of": "^6.0.0",
+    "babel-plugin-transform-es2015-function-name": "^6.0.0",
+    "babel-plugin-transform-es2015-literals": "^6.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.0",
+    "babel-plugin-transform-es2015-object-super": "^6.0.0",
+    "babel-plugin-transform-es2015-parameters": "^6.0.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.0.0",
+    "babel-plugin-transform-es2015-spread": "^6.0.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.0.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.0.0",
+    "babel-plugin-transform-es2015-typeof-symbol": "^6.0.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.0.0",
+    "babel-plugin-transform-regenerator": "^6.0.0",
+
+    "babel-plugin-transform-async-to-generator": "^6.0.0",
+
+    "babel-plugin-transform-es5-property-mutators": "^6.0.0",
+
+    "babel-plugin-transform-es2015-modules-amd": "^6.0.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.0.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.0.0"
   },
   "jspm": {
     "registry": "jspm",
