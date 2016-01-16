@@ -6,8 +6,14 @@ A skeleton for getting started with NPM packages.
 Getting started (things you have to do)
 ---------------------------------------
 
-(To simply see what this thing does, skip steps 1-6, 8, 9, 11, 12, otherwise
-follow all the steps to customize to your needs).
+To get the gist of what this does, try running
+
+```sh
+npm install # this also runs `npm prepublish` behind the scenes.
+```
+
+then look at the generated files in the root of the project. To customize to
+your needs, follow the following steps:
 
 1. Personalize `package.json` with the details of your package (name,
   description, etc), replacing things that are `ALL-CAPS` with your own things.
