@@ -11,7 +11,8 @@
   "scripts": {
     "test": "./.scripts/test.sh",
     "clean": "./.scripts/clean.sh",
-    "prepublish": "./.scripts/prepublish.sh",
+    "prepublish": "npm run build",
+    "build": "./.scripts/build.sh",
     "build-umd": "./.scripts/build-umd.sh",
     "build-cjs": "./.scripts/build-cjs.sh",
     "build-amd": "./.scripts/build-amd.sh",
