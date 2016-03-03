@@ -1,6 +1,7 @@
 // These are the Webpack settings used when compiling the global version of the
 // library.
 
+TODO: update based on infamous/infamous.
 module.exports = {
     resolve: {
         extensions: [ "", ".js", ".jsx", ]

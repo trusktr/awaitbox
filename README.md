@@ -105,7 +105,7 @@ use cases.
 TODO
 ----
 
-- [ ] Upgrade to Babel 6.x
+- [x] Upgrade to Babel 6.x
 - [ ] Support not-yet-completed experimental language features (ES7/ES2016 at
   the time of writing).
 
