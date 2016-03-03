@@ -1,7 +1,6 @@
 // These are the Webpack settings used when compiling the global version of the
 // library.
 
-TODO: update based on infamous/infamous.
 module.exports = {
     resolve: {
         extensions: [ "", ".js", ".jsx", ]
@@ -15,13 +14,7 @@ module.exports = {
                 exclude: /node_modules/,
                 query: {
                     cacheDirectory: true,
-
-                    // ignore babelrc, which is used for some package.json
-                    // scripts.
                     babelrc: true,
-
-                    // this is specific to Webpack, for making the global
-                    // build. The rest is located in .babelrc
                     plugins: [
                         'transform-es2015-modules-commonjs',
                     ],
