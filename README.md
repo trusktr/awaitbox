@@ -112,4 +112,4 @@ TODO
 Contributing
 ------------
 
-Feel free to open an issue if you have any ideas! :]
+Open an issue or PR if you have any ideas! :]
