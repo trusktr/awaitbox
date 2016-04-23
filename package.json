@@ -1,13 +1,13 @@
 {
-  "name": "npm-package-skeleton",
+  "name": "awaitbox",
   "version": "0.0.0",
-  "description": "PUT-YOUR-PACKAGE-DESCRIPTION-HERE",
+  "description": "A box of useful things to await in async functions.",
   "format": "es6",
   "main": "index.js",
   "browser": "global.js",
   "global": "global.js",
   "license": "MIT",
-  "homepage": "PUT-YOUR-PACKAGE-HOMEPAGE-HERE",
+  "homepage": "https://github.com/trusktr/awaitbox",
   "scripts": {
     "test": "./.scripts/test.sh",
     "clean": "./.scripts/clean.sh",
@@ -49,13 +49,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "PUT-YOUR-GIT-REPO-URL-HERE"
+    "url": "git@github.com:trusktr/awaitbox.git"
   },
   "bugs": {
-    "url": "PUT-YOUR-ISSUE-TRACKER-URL-HERE"
+    "url": "https://github.com/trusktr/awaitbox/issues"
   },
   "keywords": [
-    "ADD-YOUR-KEYWORDS-HERE"
+    "async",
+    "async-await",
+    "async/await",
+    "async functions",
+    "await",
+    "asynchronous",
+    "utilities"
   ],
-  "author": ""
+  "author": "Joseph Orbegoso Pea <joe@trusktr.io>"
 }
