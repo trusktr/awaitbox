@@ -3,11 +3,13 @@
 // functions.
 import 'babel-polyfill'
 
-// import from a local file.
-import bar from './foo/bar'
+// DOM
+import * as dom from './dom'
 
-// export the things you want from your package. These become the top-level
-// properties of the object assigned onto `window` in your global build.
-export let something = bar + '!'
+// Timers
+import * as timers from './timers'
 
-console.log(something)
+export {
+    dom,
+    timers,
+}
