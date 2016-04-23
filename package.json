@@ -1,6 +1,6 @@
 {
   "name": "npm-package-skeleton",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "PUT-YOUR-PACKAGE-DESCRIPTION-HERE",
   "format": "es6",
   "main": "index.js",
