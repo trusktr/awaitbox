@@ -6,7 +6,7 @@ A box of useful things to await in async functions.
 DOM
 ---
 
-These things are for the browser.
+Things in `awaitbox/dom` are for the browser.
 
 ### documentReady()
 
@@ -35,6 +35,28 @@ import windowLoaded from 'awaitbox/dom/windowLoaded'
 async function main() {
     await windowLoaded()
     console.log('Window loaded!')
+}
+
+main()
+```
+
+Meteor
+------
+
+The things in `awaitbox/meteor` are for use in [Meteor](http://meteor.com).
+
+### startup()
+
+Await this to run code after Meteor is ready (client and server). On the
+client, this is similar to [documentReady](#documentready). See the [meteor
+docs](http://docs.meteor.com/#/full/meteor_startup).
+
+```js
+import meteorStartup from 'awaitbox/meteor/startup'
+
+async function main() {
+    await meteorStartup()
+    console.log('Meteor (and DOM) ready!')
 }
 
 main()
