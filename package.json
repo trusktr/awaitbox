@@ -18,7 +18,9 @@
     "build-amd": "./.scripts/build-amd.sh",
     "build-global": "./.scripts/build-global.sh"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-runtime": "^6.0.0"
+  },
   "devDependencies": {
     "browserify": "^12.0.0",
     "babelify": "^7.0.0",
