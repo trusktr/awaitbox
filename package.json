@@ -1,6 +1,6 @@
 {
   "name": "awaitbox",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A box of useful things to await in async functions.",
   "format": "es6",
   "main": "index.js",
