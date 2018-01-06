@@ -16,17 +16,17 @@ Available tools
 - [`meteorStartup()`](https://github.com/awaitbox/meteor-startup) - Await for Meteor's environment to be ready.
 - [`sleep()`        ](https://github.com/awaitbox/sleep)          - Await for a certain amount of time.
 
+Compatibility
+-------------
+
+This package is written in ES2016+ JavaScript. To use this in pre-ES2016
+environments, you'll need to run this through a transpiler like
+[Babel](http://babeljs.io) (and I recommend using the
+[fast-async](https://github.com/MatAtBread/fast-async) plugin to get the best
+results). See [some tips](http://2ality.com/2017/06/pkg-esnext.html) on wiring
+it up with [Webpack](https://webpack.js.org).
+
 Contributing
 ------------
 
 Please open an issue or PR if you have any ideas! :]
-
-Note
-----
-
-This is written in ES2016+ JavaScript. To use this in pre-ES2016 environments,
-you'll need to run this through a transpiler like [Babel](http://babeljs.io)
-(and I recommend using the
-[fast-async](https://github.com/MatAtBread/fast-async) plugin to get the best
-results). See some tips here on wiring it up with
-[Webpack](https://webpack.js.org): http://2ality.com/2017/06/pkg-esnext.html.
