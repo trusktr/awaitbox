@@ -1,15 +1,11 @@
-// Import this if you want to polyfill things like Promise, Object.values(),
-// etc. Includes Facebook Regenerator if you're using generators or async
-// functions.
-import 'babel-polyfill'
-
-// DOM
-import * as dom from './dom'
-
-// Timers
-import * as timers from './timers'
+import documentReady from '@awaitbox/document-ready'
+import windowLoaded from '@awaitbox/window-loaded'
+import meteorStartup from '@awaitbox/meteor-startup'
+import sleep from '@awaitbox/sleep'
 
 export {
-    dom,
-    timers,
+    documentReady,
+    windowLoaded,
+    meteorStartup,
+    sleep,
 }

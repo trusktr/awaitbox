@@ -8,7 +8,7 @@ A box of useful things to await for in async functions.
 > NOTE: It's recommended that you install only the packages that you need,
 > rather than this package directly.
 
-Available tools:
+Available tools
 ----------------
 
 - [`documentReady()`](https://github.com/awaitbox/document-ready) - Await for the `document` to be ready.
@@ -20,3 +20,13 @@ Contributing
 ------------
 
 Please open an issue or PR if you have any ideas! :]
+
+Note
+----
+
+This is written in ES2016+ JavaScript. To use this in pre-ES2016 environments,
+you'll need to run this through a transpiler like [Babel](http://babeljs.io)
+(and I recommend using the
+[fast-async](https://github.com/MatAtBread/fast-async) plugin to get the best
+results). See some tips here on wiring it up with
+[Webpack](https://webpack.js.org): http://2ality.com/2017/06/pkg-esnext.html.
